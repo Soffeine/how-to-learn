@@ -14,10 +14,13 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  display: flex;
+  position:relative;
   margin-bottom:100px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
 .logo {
   width: 183px;
   height: 32px;
@@ -26,18 +29,19 @@
 .logo_place_header {
   background-image: url(../images/logo_place_header.svg);
   position:absolute;
-  margin-top:30px;
-  margin-left: 64px;
+  top: 30px;
+  left: 64px;
+  z-index: 4;
 }
 
 .header__title {
   width: 730px;
-  align-self: center;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
-  font-weight: 450;
+  font-weight: 700;
   z-index: 3;
+
 }
 
 .header__subtitle {
@@ -54,7 +58,6 @@
 .header__link {
   align-self:flex-end;
   text-decoration: none;
-  
 }
 
 .header__main-illustration {
@@ -68,7 +71,6 @@
   z-index:2;
 }
 
-
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -80,7 +82,6 @@
 }
 
 .description {
-  width: 80%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -91,6 +92,7 @@
   width: 80%;
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -116,7 +118,7 @@
 }
 
 .two-columns__span-accent {
-  font-weight: 450;
+  font-weight: 700;
 }
 
 .digits {
@@ -132,7 +134,7 @@
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: 450;
+  font-weight: 700;
 }
 
 .digits-subtitle {
@@ -164,7 +166,7 @@
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
-  font-weight: 450;
+  font-weight: 700;
 }
 
 .table__text {
@@ -172,10 +174,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.table__text_credit {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .feynman {
@@ -194,7 +193,7 @@
   margin-top: 100px;
   line-height: 1.15;
   font-size: 120px;
-  font-weight: 450;
+  font-weight: 700;
   z-index: 3; 
 }
 
@@ -239,7 +238,7 @@
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: 450;
+  font-weight: 700;
 }
 
 .kaufman-subtitle_theme_dark {
@@ -250,7 +249,7 @@
   text-align: center;
   line-height: 34px;
   font-size: 24px;
-  font-weight: 450;
+  font-weight: 700;
 }
 
 .table_theme_dark{
@@ -279,7 +278,7 @@
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
-  font-weight: 450;
+  font-weight: 700;
 }
 
 .table__text_theme_dark{
@@ -347,7 +346,7 @@
 }
 
 .footer__column-heading {
-  font-weight: 450;
+  font-weight: 700;
 }
 
 .footer__column-link {
