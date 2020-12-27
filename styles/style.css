@@ -91,11 +91,9 @@
 
 .two-columns {
   width: 80%;
-  margin: 0;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 .two-columns__brief {
