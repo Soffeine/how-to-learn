@@ -317,7 +317,6 @@
 .footer{
   min-height: 350px;
   background-color: #1f1f1f;
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
